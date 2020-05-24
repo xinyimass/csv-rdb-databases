@@ -1,0 +1,15 @@
+/Users/xinyima/.conda/envs/HW1_Template/bin/python /Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/tests/rdb_table_tests.py
+[{'playerID': 'coxbi01'}, {'nameLast': 'Cox'}, {'nameFirst': 'Bill'}]
+[{'playerID': 'coxbi01', 'birthYear': '1913', 'birthMonth': '6', 'birthDay': '23', 'birthCountry': 'USA', 'birthState': 'IL', 'birthCity': 'Ashmore', 'deathYear': '1988', 'deathMonth': '2', 'deathDay': '16', 'deathCountry': 'USA', 'deathState': 'IL', 'deathCity': 'Charleston', 'nameFirst': 'Bill', 'nameLast': 'Cox', 'nameGiven': 'William Donald', 'weight': 185, 'height': 73, 'bats': 'R', 'throws': 'R', 'debut': '1936-06-06', 'finalGame': '1940-07-31', 'retroID': 'cox-b102', 'bbrefID': 'coxbi01'}]
+1
+[{'playerID': 'coxbi01', 'birthYear': '1913', 'birthMonth': '6', 'birthDay': '23', 'birthCountry': 'USA', 'birthState': 'IL', 'birthCity': 'Tokyo', 'deathYear': '2020', 'deathMonth': '2', 'deathDay': '16', 'deathCountry': 'USA', 'deathState': 'IL', 'deathCity': 'Charleston', 'nameFirst': 'Bill', 'nameLast': 'Cox', 'nameGiven': 'William Donald', 'weight': 185, 'height': 73, 'bats': 'R', 'throws': 'R', 'debut': '1936-06-06', 'finalGame': '1940-07-31', 'retroID': 'cox-b102', 'bbrefID': 'coxbi01'}]
+1
+None
+[{'playerID': 'davisch02', 'birthYear': '1986', 'birthMonth': '3', 'birthDay': '17', 'birthCountry': 'USA', 'birthState': 'TX', 'birthCity': 'Longview', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Chris', 'nameLast': 'Davis', 'nameGiven': 'Christopher Lyn', 'weight': 230, 'height': 75, 'bats': 'L', 'throws': 'R', 'debut': '2008-06-26', 'finalGame': '2018-09-22', 'retroID': 'davic003', 'bbrefID': 'davisch02'}]
+1
+[{'playerID': 'davisch02', 'birthYear': '1986', 'birthMonth': '3', 'birthDay': '17', 'birthCountry': 'USA', 'birthState': 'TX', 'birthCity': 'Tokyo', 'deathYear': '2020', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Chris', 'nameLast': 'Davis', 'nameGiven': 'Christopher Lyn', 'weight': 230, 'height': 75, 'bats': 'L', 'throws': 'R', 'debut': '2008-06-26', 'finalGame': '2018-09-22', 'retroID': 'davic003', 'bbrefID': 'davisch02'}]
+1
+None
+[{'playerID': 'newplayer12', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': 'Database', 'nameLast': 'Cool', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}]
+
+Process finished with exit code 0

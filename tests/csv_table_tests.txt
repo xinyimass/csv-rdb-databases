@@ -1,0 +1,129 @@
+/Users/xinyima/.conda/envs/HW1_Template/bin/python /Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/tests/csv_table_tests.py
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": null,
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+[OrderedDict([('playerID', 'willite01'), ('birthYear', '1918'), ('birthMonth', '8'), ('birthDay', '30'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'San Diego'), ('deathYear', '2002'), ('deathMonth', '7'), ('deathDay', '5'), ('deathCountry', 'USA'), ('deathState', 'FL'), ('deathCity', 'Inverness'), ('nameFirst', 'Ted'), ('nameLast', 'Williams'), ('nameGiven', 'Theodore Samuel'), ('weight', '205'), ('height', '75'), ('bats', 'L'), ('throws', 'R'), ('debut', '1939-04-20'), ('finalGame', '1960-09-28'), ('retroID', 'willt103'), ('bbrefID', 'willite01')])]
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": null,
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+[{'playerID': 'willite01', 'nameLast': 'Williams', 'nameFirst': 'Ted'}]
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": null,
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+[{'playerID': 'willite01', 'nameLast': 'Williams', 'nameFirst': 'Ted'}]
+1
+[]
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": [
+    "playerID"
+  ],
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+{'nameFirst': 'Tommie', 'nameLast': 'Aaron'}
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": [
+    "playerID"
+  ],
+  "debug": true
+}
+OrderedDict([('playerID', 'aaronha01'), ('birthYear', '1934'), ('birthMonth', '2'), ('birthDay', '5'), ('birthCountry', 'USA'), ('birthState', 'AL'), ('birthCity', 'Mobile'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Hank'), ('nameLast', 'Aaron'), ('nameGiven', 'Henry Louis'), ('weight', '180'), ('height', '72'), ('bats', 'R'), ('throws', 'R'), ('debut', '1954-04-13'), ('finalGame', '1976-10-03'), ('retroID', 'aaroh101'), ('bbrefID', 'aaronha01')])
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+1
+None
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": [
+    "playerID"
+  ],
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+OrderedDict([('playerID', 'willite01'), ('birthYear', '1918'), ('birthMonth', '8'), ('birthDay', '30'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'San Diego'), ('deathYear', '2002'), ('deathMonth', '7'), ('deathDay', '5'), ('deathCountry', 'USA'), ('deathState', 'FL'), ('deathCity', 'Inverness'), ('nameFirst', 'Ted'), ('nameLast', 'Williams'), ('nameGiven', 'Theodore Samuel'), ('weight', '205'), ('height', '75'), ('bats', 'L'), ('throws', 'R'), ('debut', '1939-04-20'), ('finalGame', '1960-09-28'), ('retroID', 'willt103'), ('bbrefID', 'willite01')])
+1
+OrderedDict([('playerID', 'willite01'), ('birthYear', '1918'), ('birthMonth', '8'), ('birthDay', '30'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'Tokyo'), ('deathYear', '2020'), ('deathMonth', '7'), ('deathDay', '5'), ('deathCountry', 'USA'), ('deathState', 'FL'), ('deathCity', 'Inverness'), ('nameFirst', 'Ted'), ('nameLast', 'Williams'), ('nameGiven', 'Theodore Samuel'), ('weight', '205'), ('height', '75'), ('bats', 'L'), ('throws', 'R'), ('debut', '1939-04-20'), ('finalGame', '1960-09-28'), ('retroID', 'willt103'), ('bbrefID', 'willite01')])
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": [
+    "playerID"
+  ],
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+OrderedDict([('playerID', 'aardsda01'), ('birthYear', '1981'), ('birthMonth', '12'), ('birthDay', '27'), ('birthCountry', 'USA'), ('birthState', 'CO'), ('birthCity', 'Denver'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'David'), ('nameLast', 'Aardsma'), ('nameGiven', 'David Allan'), ('weight', '215'), ('height', '75'), ('bats', 'R'), ('throws', 'R'), ('debut', '2004-04-06'), ('finalGame', '2015-08-23'), ('retroID', 'aardd001'), ('bbrefID', 'aardsda01')])
+1
+OrderedDict([('playerID', 'aardsda01'), ('birthYear', '1981'), ('birthMonth', '12'), ('birthDay', '27'), ('birthCountry', 'USA'), ('birthState', 'CO'), ('birthCity', 'Beijing'), ('deathYear', '2019'), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'David'), ('nameLast', 'Aardsma'), ('nameGiven', 'David Allan'), ('weight', '215'), ('height', '75'), ('bats', 'R'), ('throws', 'R'), ('debut', '2004-04-06'), ('finalGame', '2015-08-23'), ('retroID', 'aardd001'), ('bbrefID', 'aardsda01')])
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": [
+    "playerID"
+  ],
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+{'playerID': 'newplayer01', 'birthYear': '', 'birthMonth': '', 'birthDay': '', 'birthCountry': '', 'birthState': '', 'birthCity': '', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Lexi', 'nameLast': 'Ma', 'nameGiven': '', 'weight': '', 'height': '', 'bats': '', 'throws': '', 'debut': '', 'finalGame': '', 'retroID': '', 'bbrefID': ''}
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": [
+    "playerID"
+  ],
+  "debug": true
+}
+DEBUG:root:CSVDataTable._load: Loaded 19370 rows
+Traceback (most recent call last):
+  File "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/tests/csv_table_tests.py", line 141, in <module>
+    t_update_by_tmp_error()
+  File "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/tests/csv_table_tests.py", line 139, in t_update_by_tmp_error
+    result = csv_tbl.update_by_template(tmp, new_values)
+  File "/Users/xinyima/Desktop/w4111-Databases/HW_Assignments/HW1_Template/src/CSVDataTable.py", line 235, in update_by_template
+    raise Exception('updating fields results in the duplication of primary keys.')
+Exception: updating fields results in the duplication of primary keys.
+
+Process finished with exit code 1
